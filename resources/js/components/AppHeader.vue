@@ -4,8 +4,8 @@
       <v-btn :to="{ name: 'welcome' }" class="mr-8">
         Welcome
       </v-btn>
-      <v-btn :to="{ name: 'test' }" class="mr-8">
-        Test
+      <v-btn :to="{ name: 'calendar' }" class="mr-8">
+        Calendar
       </v-btn>
 
       <v-spacer></v-spacer>
@@ -42,3 +42,8 @@ export default {
 
 <style scoped>
 </style>
+
+
+CREATE DATABASE laravel_planner DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+GRANT ALL ON laravel_planner.* TO 'laravel_user'@'localhost' IDENTIFIED BY '197346825aveda';

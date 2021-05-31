@@ -5,7 +5,7 @@ import Login from '../views/auth/Login.vue'
 import Register from '../views/auth/Register.vue'
 
 import Welcome from '../views/Welcome.vue'
-import Test from '../views/Test.vue'
+import Calendar from '../views/Calendar.vue'
 
 Vue.use(VueRouter)
 
@@ -25,9 +25,9 @@ const routes = [
     name: 'welcome',
     component: Welcome,
   }, {
-    path: '/test',
-    name: 'test',
-    component: Test,
+    path: '/calendar',
+    name: 'calendar',
+    component: Calendar,
     meta: { auth: true }
   },
 ]
